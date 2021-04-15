@@ -1,0 +1,72 @@
+@media (min-width: 839px) {
+.class1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+  }
+  .class2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+  }
+  .class1 img{
+    height: 150px;
+    width: 200px;
+    padding: auto;
+  }
+  .class1 p{
+      color: black;
+      font-style: normal;
+  }
+  .keyboard button{
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    margin: 7px;
+    padding: 5px;
+  }
+}
+@media (min-width:300px) and (max-width:839px){
+    .class1{
+        width: 100px;
+        height: 120px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 8%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .class2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 88%;
+        margin-left: 15%;
+      }
+      .class1 img{
+        height: 80px;
+        width: 80px;
+        padding: auto;
+      }
+      .class1 p{
+        color: black;
+        font-style: normal;
+    }
+    .keyboard button{
+      height: 50px;
+      width: 40px;
+      background-color: white;
+      margin: 5px;
+      padding: 3px;
+    }
+    .makeStyles-formControl-2{
+        margin: 0px !important;
+    }
+    .makeStyles-root-15{
+      margin-top: 3%;
+    }
+}
